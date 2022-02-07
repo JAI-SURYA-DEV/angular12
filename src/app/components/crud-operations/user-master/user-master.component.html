@@ -1,0 +1,13 @@
+<div class="container-fluid">
+  <h1>Angular 12 Practice</h1>
+  <p>user-master works!</p>
+  <app-alert *ngIf="isAlert" [type]="'alert-danger'" (close)="onAlertClose()">
+    <strong>Danger!</strong> This alert box could indicate a dangerous or
+    potentially negative action.
+  </app-alert>
+  <p>{{ userList | json }}</p>
+</div>
+
+<div class="container-fluid">
+  <!-- <app-ng-style></app-ng-style> -->
+</div>
